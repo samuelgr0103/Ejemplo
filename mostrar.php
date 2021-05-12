@@ -30,7 +30,7 @@
 				<div id="content">
 					<br><br>		
 					<?php
-						$mostrar=fopen('datos.txt','r');
+						$mostrar=fopen('./datos.txt','r');
 						while(!feof($mostrar))
 						{
 							$codigo=fgets($mostrar);
